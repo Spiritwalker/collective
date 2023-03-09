@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Montserrat-Extra-Bold";
+    src: local("Montserrat-Extra-Bold"), url(./../../../../assets/fonts/Montserrat-ExtraBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: local("Montserrat-Bold"), url(./../../../../assets/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+
+::ng-deep .apexcharts-tooltip-series-group.apexcharts-active .apexcharts-tooltip-marker {
+    opacity: 0 !important;
+}
+
+.map-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+    height: 500px;
+}
+  
+.map-frame {
+    border: 2px solid black;
+    height: 100%;
+}
+  
+#map {
+    height: 100%;
+}
+
+.leaflet-tooltip-own {
+    background-color: black;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+    background-color: #F3F3F3;
+}
+
+::ng-deep .leaflet-tooltip {
+    border-radius: 15px;
+}
