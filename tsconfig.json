@@ -25,6 +25,9 @@
     "useDefineForClassFields": false
   },
   "angularCompilerOptions": {
+    "enableIvy": false, // This is required for Angular version 10 and earlier.
+    "skipTemplateCodegen": true,
+    "strictMetadataEmit": true,
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,

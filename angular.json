@@ -23,6 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot":true,
             "outputPath": "dist/velzon",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -129,6 +130,9 @@
           "configurations": {
             "production": {
               "browserTarget": "velzon:build:production"
+            },
+            "options": {
+              "aot": true
             },
             "development": {
               "browserTarget": "velzon:build:development"
